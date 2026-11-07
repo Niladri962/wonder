@@ -1,0 +1,30 @@
+feature stats in 11s
+ep 0 batch 0/360 loss 0.8425 17s
+ep 0 batch 50/360 loss 0.3261 133s
+ep 0 batch 100/360 loss 0.3075 191s
+ep 0 batch 150/360 loss 0.3045 248s
+ep 0 batch 200/360 loss 0.3061 307s
+ep 0 batch 250/360 loss 0.2191 363s
+ep 0 batch 300/360 loss 0.3109 419s
+ep 0 batch 350/360 loss 0.2597 475s
+== epoch 0 train_loss 0.2905 val(sub) {'t0': np.float64(0.654926958065741), 't1': np.float64(0.6783188680265545), 'wp': 0.6666229130461477} 675s
+ep 1 batch 0/360 loss 0.2132 44s
+ep 1 batch 50/360 loss 0.2674 105s
+ep 1 batch 100/360 loss 0.2636 164s
+ep 1 batch 150/360 loss 0.2322 221s
+ep 1 batch 200/360 loss 0.1659 286s
+ep 1 batch 250/360 loss 0.2141 362s
+ep 1 batch 300/360 loss 0.2269 429s
+ep 1 batch 350/360 loss 0.2287 507s
+== epoch 1 train_loss 0.2353 val(sub) {'t0': np.float64(0.6567766852376559), 't1': np.float64(0.686091393023337), 'wp': 0.6714340391304965} 792s
+ep 2 batch 0/360 loss 0.1526 121s
+ep 2 batch 50/360 loss 0.2274 214s
+ep 2 batch 100/360 loss 0.1842 306s
+ep 2 batch 150/360 loss 0.2168 399s
+ep 2 batch 200/360 loss 0.1995 491s
+ep 2 batch 250/360 loss 0.1849 582s
+ep 2 batch 300/360 loss 0.1629 673s
+ep 2 batch 350/360 loss 0.1750 765s
+== epoch 2 train_loss 0.2007 val(sub) {'t0': np.float64(0.6639629860447384), 't1': np.float64(0.6916191058106786), 'wp': 0.6777910459277086} 968s
+FULL VALID {'t0': np.float64(0.6798542506207358), 't1': np.float64(0.6886888772356727), 'wp': 0.6842715639282042}
+HALF-B VALID (unseen by mask model) {'t0': np.float64(0.6692392398565996), 't1': np.float64(0.6745015908155295), 'wp': 0.6718704153360646}

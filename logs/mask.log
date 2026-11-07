@@ -1,0 +1,7 @@
+loaded in 145s
+epoch 0 loss 1.0606 half-B AUC 0.8123 mean p scored 0.635 unscored 0.347
+epoch 1 loss 0.9317 half-B AUC 0.8361 mean p scored 0.656 unscored 0.324
+epoch 2 loss 0.8859 half-B AUC 0.8544 mean p scored 0.671 unscored 0.303
+epoch 3 loss 0.8537 half-B AUC 0.8632 mean p scored 0.685 unscored 0.291
+epoch 4 loss 0.8321 half-B AUC 0.8711 mean p scored 0.718 unscored 0.319
+epoch 5 loss 0.8069 half-B AUC 0.8764 mean p scored 0.712 unscored 0.288

@@ -1,0 +1,30 @@
+{
+ "cfg": {
+  "epochs": 3,
+  "hidden": 128,
+  "layers": 2,
+  "d_in": 128,
+  "batch": 32,
+  "chunk": 1000,
+  "lr": 0.002,
+  "train_seqs": 0,
+  "val_seqs": 400,
+  "workers": 6,
+  "name": "gru_v3",
+  "mask_model": "maskgru",
+  "mask_floor": 0.1,
+  "mse": 0.5,
+  "mask_power": 1.0,
+  "add_valid_a": true
+ },
+ "full_valid": {
+  "t0": 0.6798542506207358,
+  "t1": 0.6886888772356727,
+  "wp": 0.6842715639282042
+ },
+ "half_b_valid": {
+  "t0": 0.6692392398565996,
+  "t1": 0.6745015908155295,
+  "wp": 0.6718704153360646
+ }
+}

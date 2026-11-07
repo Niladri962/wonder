@@ -1,0 +1,20 @@
+{
+ "cfg": {
+  "epochs": 4,
+  "hidden": 128,
+  "layers": 2,
+  "d_in": 128,
+  "batch": 32,
+  "chunk": 1000,
+  "lr": 0.003,
+  "train_seqs": 0,
+  "val_seqs": 400,
+  "workers": 6,
+  "name": "gru_full"
+ },
+ "full_valid": {
+  "t0": 0.574605740414032,
+  "t1": 0.6066839440797237,
+  "wp": 0.5906448422468779
+ }
+}

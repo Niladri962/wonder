@@ -1,0 +1,45 @@
+base WP on 60 half-B sequences: 0.6877 (44s per pass)
+  i0 bid price p0-10       (11 cols)  WP drop +0.0387
+  i0 ask price p11-21      (11 cols)  WP drop +0.0322
+  i0 bid volume v0-10      (11 cols)  WP drop +0.0180
+  i0 ask volume v11-21     (11 cols)  WP drop +0.0276
+  i0 trade price dp        ( 4 cols)  WP drop -0.0001
+  i0 trade volume dv       ( 4 cols)  WP drop +0.0113
+  i1 bid price p0-10       (11 cols)  WP drop +0.0034
+  i1 ask price p11-21      (11 cols)  WP drop +0.0061
+  i1 bid volume v0-10      (11 cols)  WP drop -0.0028
+  i1 ask volume v11-21     (11 cols)  WP drop +0.0006
+  i1 trade price dp        ( 4 cols)  WP drop -0.0001
+  i1 trade volume dv       ( 4 cols)  WP drop +0.0095
+  i1 (whole instrument)    (52 cols)  WP drop +0.0514
+  a0                       ( 1 cols)  WP drop +0.0004
+  a1                       ( 1 cols)  WP drop +0.0005
+  a2                       ( 1 cols)  WP drop +0.0004
+  a3                       ( 1 cols)  WP drop -0.0002
+  a4                       ( 1 cols)  WP drop +0.0013
+  a5                       ( 1 cols)  WP drop +0.0026
+  a6                       ( 1 cols)  WP drop +0.0027
+  a7                       ( 1 cols)  WP drop +0.0002
+
+ranked (biggest drop = most useful):
+  +0.0514  i1 (whole instrument)
+  +0.0387  i0 bid price p0-10
+  +0.0322  i0 ask price p11-21
+  +0.0276  i0 ask volume v11-21
+  +0.0180  i0 bid volume v0-10
+  +0.0113  i0 trade volume dv
+  +0.0095  i1 trade volume dv
+  +0.0061  i1 ask price p11-21
+  +0.0034  i1 bid price p0-10
+  +0.0027  a6
+  +0.0026  a5
+  +0.0013  a4
+  +0.0006  i1 ask volume v11-21
+  +0.0005  a1
+  +0.0004  a0
+  +0.0004  a2
+  +0.0002  a7
+  -0.0001  i1 trade price dp
+  -0.0001  i0 trade price dp
+  -0.0002  a3
+  -0.0028  i1 bid volume v0-10

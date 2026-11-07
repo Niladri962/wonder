@@ -1,0 +1,4 @@
+feature stats in 11s
+ep 0 batch 0/20 loss -0.1526 11s
+== epoch 0 train_loss -0.3140 val(sub) {'t0': np.float64(0.5679455917156845), 't1': np.float64(0.5735325102739568), 'wp': 0.5707390509948207} 168s
+FULL VALID {'t0': np.float64(0.6099682248276493), 't1': np.float64(0.6001665893869185), 'wp': 0.6050674071072839}

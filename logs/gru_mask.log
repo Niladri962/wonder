@@ -1,0 +1,17 @@
+feature stats in 12s
+ep 0 batch 0/331 loss 1.0304 10s
+ep 0 batch 50/331 loss 0.3125 94s
+ep 0 batch 100/331 loss 0.3127 152s
+ep 0 batch 150/331 loss 0.3116 215s
+ep 0 batch 200/331 loss 0.2786 273s
+ep 0 batch 250/331 loss 0.2769 332s
+ep 0 batch 300/331 loss 0.2509 388s
+== epoch 0 train_loss 0.3125 val(sub) {'t0': np.float64(0.650344755326401), 't1': np.float64(0.680106266723012), 'wp': 0.6652255110247065} 605s
+ep 1 batch 0/331 loss 0.2304 44s
+ep 1 batch 50/331 loss 0.2697 103s
+ep 1 batch 100/331 loss 0.2847 161s
+ep 1 batch 150/331 loss 0.2034 217s
+ep 1 batch 200/331 loss 0.2690 274s
+ep 1 batch 250/331 loss 0.2343 331s
+ep 1 batch 300/331 loss 0.2660 387s
+== epoch 1 train_loss 0.2614 val(sub) {'t0': np.float64(0.6517640589260989), 't1': np.float64(0.6738093570142963), 'wp': 0.6627867079701977} 609s

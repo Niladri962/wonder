@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "C:\Users\Niladri Ghosh\OneDrive\Desktop\Python Workspace\Wunder_Fund\train.py", line 144, in <module>
+    main()
+  File "C:\Users\Niladri Ghosh\OneDrive\Desktop\Python Workspace\Wunder_Fund\train.py", line 97, in main
+    for bi, (x, y) in enumerate(loader):
+  File "C:\Users\Niladri Ghosh\OneDrive\Desktop\Python Workspace\Wunder_Fund\common.py", line 73, in __iter__
+    result = pending.pop(0).result()
+  File "C:\Users\Niladri Ghosh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 438, in result
+    return self.__get_result()
+  File "C:\Users\Niladri Ghosh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 390, in __get_result
+    raise self._exception
+  File "C:\Users\Niladri Ghosh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Niladri Ghosh\OneDrive\Desktop\Python Workspace\Wunder_Fund\common.py", line 63, in _load
+    seqs = list(pool.map(self._read, groups))
+  File "C:\Users\Niladri Ghosh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 608, in result_iterator
+    yield fs.pop().result()
+  File "C:\Users\Niladri Ghosh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 438, in result
+    return self.__get_result()
+  File "C:\Users\Niladri Ghosh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\_base.py", line 390, in __get_result
+    raise self._exception
+  File "C:\Users\Niladri Ghosh\AppData\Local\Programs\Python\Python310\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Niladri Ghosh\OneDrive\Desktop\Python Workspace\Wunder_Fund\common.py", line 60, in _read
+    return read_sequence(self.local.pf, int(g))
+  File "C:\Users\Niladri Ghosh\OneDrive\Desktop\Python Workspace\Wunder_Fund\common.py", line 33, in read_sequence
+    x = np.column_stack([table[c].to_numpy() for c in FEATURE_COLUMNS]).astype(np.float32)
+numpy._core._exceptions.MemoryError: Unable to allocate 8.54 MiB for an array with shape (20000, 112) and data type float32
